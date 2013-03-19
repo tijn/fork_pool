@@ -30,4 +30,4 @@ Known issues
 
 ```ForkPool#wait``` will wait for ANY child process to die even if it was started by another pool.
 
-Really, if you try to us this code with multiple pools you will be asking for trouble.
+Really, if you try to us this code with multiple pools (that have processes running at the same time) you will be asking for trouble.
