@@ -14,6 +14,8 @@ Usage
 
 ```ruby
 pool = ForkPool.new(4) # max 4 childs processes at a time
+
+# #spork forks off a block of code and also spoons up finished processes.
 pool.spork do
   do_something_impressive_that_needs_multiple_processors!
 end
