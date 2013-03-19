@@ -1,7 +1,7 @@
 fork_pool
 =========
 
-A pool that can keep a number of forks. It uses these to fork off code blocks.
+A pool that contains a number of forks. The pool can use this cutlery to fork off code blocks.
 
 What?
 -----
