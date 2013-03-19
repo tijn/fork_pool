@@ -4,10 +4,10 @@ puts "Hey #{Process.pid}"
 
 pool = ForkPool.new(2)
 8.times do
-	pool.spork do
-		sleep 0.3
-		puts "Ho! #{Process.pid}"
-	end
+  pool.spork do
+    sleep 0.3
+    puts "Ho! #{Process.pid}"
+  end
 end
 
 pool.wait
